@@ -1,0 +1,36 @@
+:root{
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --pink: #e12afb;
+  --green: #51bd4b;
+}
+
+
+.shopping-cart{
+  width: 30%;
+  height: 50px;
+  animation: slideIn 3s ease-in-out;
+}
+
+.btn-pay{
+background-color: var(--blue);
+border-radius: 10px;
+padding: 8px;
+color: var(--white);
+cursor: auto;
+}
+
+.btn-pay:hover{
+  cursor: pointer;
+}
+
+@keyframes slideIn{
+  from{
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
