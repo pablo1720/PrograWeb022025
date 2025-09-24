@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recordatorios Semanales</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>¡Recordatorios Semanales!</h1>
+    <p>Escribe el día de la semana que quieras recordar y da click en el boton de abajo.</p>
+    <input type="text" id="diaInput" placeholder="Ej: lunes, martes, etc.">
+    <button class="boton-recordatorio">Recordar tarea</button>
+  </div>
+
+  <div id="miModal" class="modal">
+    <div class="modal-content">
+      <span class="cerrar-modal">&times;</span>
+      <p id="mensaje-recordatorio"></p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
